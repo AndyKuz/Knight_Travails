@@ -65,7 +65,7 @@ def find_green_flag():
 
 
 def draw_green_flag():
-    green_flag = pygame.image.load('green flag.png')  # loads the green flag.png image
+    green_flag = pygame.image.load('green_flag.png')  # loads the green flag.png image
     green_flag = pygame.transform.scale(green_flag, (50, 50))
 
     green_flag_x, green_flag_y = find_green_flag()  # green flag
